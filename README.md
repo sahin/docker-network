@@ -9,3 +9,5 @@ sudo npm i docker-network
 # Using
 
 dockerNetwork -c containerId
+
+![GIF](dockerNetwork.gif)
