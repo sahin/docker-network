@@ -17,7 +17,6 @@ updateNotifier({pkg}).notify();
 
 program
   .option('-c, --container <string>', 'Docker container id')
-  .option('-b, --bash <string>', 'Inject bash container id or container name')
   .parse(process.argv);
 
 
@@ -30,18 +29,8 @@ function ipFinder(containerId) {
   });
 }
 
-function bash(containerId) {
-  var cmd = `sudo docker exec -it ${containerId} bash `;
-
-  exec(cmd, function(error, stdout, stderr) {
-    console.log(stdout);
-  });
-}
-
 if (program.container) {
   ipFinder(program.container);
-} else if (program.bash) {
-  bash(program.bash);
 } else {
   console.log('Please add container id \n Ex: dockerNetwork -c 12597ccd7f70');
 }
