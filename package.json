@@ -1,7 +1,7 @@
 {
   "name": "docker-network",
   "version": "1.0.9",
-  "description": "Docker network ip finder",
+  "description": "Docker container ip finder",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
