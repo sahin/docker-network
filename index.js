@@ -40,12 +40,8 @@ function bash(containerId) {
 
 if (program.container) {
   ipFinder(program.container);
-} else {
-  console.log('Please add container id \n Ex: dockerNetwork -c 12597ccd7f70');
-}
-
-if (program.bash) {
+} else if (program.bash) {
   bash(program.bash);
 } else {
-  console.log('Please add container id or name \n Ex: dockerNetwork -c 12597ccd7f70');
+  console.log('Please add container id \n Ex: dockerNetwork -c 12597ccd7f70');
 }
