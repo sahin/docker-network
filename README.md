@@ -11,8 +11,3 @@ sudo npm i docker-network
 dockerNetwork -c containerId
 
 ![GIF](dockerNetwork.gif)
-
-
-# Inject bash
-
-dockerNetwork -b containerId
