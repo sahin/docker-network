@@ -1,0 +1,25 @@
+{
+  "name": "docker-network",
+  "version": "1.0.0",
+  "description": "Docker network ip finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccali14/docker-network.git"
+  },
+  "keywords": [
+    "docker",
+    "npm",
+    "docker",
+    "network"
+  ],
+  "author": "Çağatay ÇALI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccali14/docker-network/issues"
+  },
+  "homepage": "https://github.com/ccali14/docker-network#readme"
+}
