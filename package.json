@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccali14/docker-network.git"
+    "url": "git+https://github.com/svtek/docker-network.git"
   },
   "keywords": [
     "docker",
@@ -22,9 +22,9 @@
   "author": "Çağatay ÇALI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ccali14/docker-network/issues"
+    "url": "https://github.com/svtek/docker-network/issues"
   },
-  "homepage": "https://github.com/ccali14/docker-network#readme",
+  "homepage": "https://github.com/svtek/docker-network#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "update-notifier": "^1.0.2"
