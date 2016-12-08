@@ -22,7 +22,7 @@ program
 
 
 function ipFinder(containerId) {
-  var cmd = `sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' ${containerId}`;
+  var cmd = `sudo docker inspect --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${containerId}`;
 
   exec(cmd, function(error, stdout, stderr) {
     console.log(stdout);
