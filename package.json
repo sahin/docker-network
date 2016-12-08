@@ -1,6 +1,6 @@
 {
   "name": "docker-network",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Docker container ip finder",
   "main": "index.js",
   "scripts": {
